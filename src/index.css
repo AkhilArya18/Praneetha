@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Dancing+Script:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased overflow-x-hidden text-gray-800;
+    background: radial-gradient(circle at 50% 50%, #fcfaf9 0%, #fdf2f8 100%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fdf2f8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b76e79;
+  border-radius: 10px;
+  border: 2px solid #fdf2f8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8a1c1c;
+}
+
+::selection {
+  background: #fadce6;
+  /* Soft pink selection */
+  color: #8a1c1c;
+}
