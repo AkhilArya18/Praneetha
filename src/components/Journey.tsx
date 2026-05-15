@@ -19,7 +19,7 @@ const Journey = () => {
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
                 >
-                    “Not Just Years… But Us.”
+                    “A New Beginning… And Already, It Feels Like Something Real.”
                 </motion.h2>
 
                 <motion.p
@@ -29,7 +29,7 @@ const Journey = () => {
                     transition={{ delay: 0.2 }}
                     viewport={{ once: true }}
                 >
-                    Six years of knowing you. Six years of you being my most <span className="font-semibold text-rose-gold">trusted person</span>.
+                    Just three days of knowing you. And already, you’ve become my most <span className="font-semibold text-rose-gold">unforgettable person</span>.
                 </motion.p>
 
                 <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -56,9 +56,9 @@ const Journey = () => {
                     transition={{ delay: 1 }}
                     viewport={{ once: true }}
                 >
-                    <p>“We’ve seen each other at our best… and our weakest.”</p>
-                    <p>“We’ve shared dreams, fears, silence, laughter, and hope.”</p>
-                    <p className="text-2xl font-serif text-rose-gold mt-6">“And through everything, one thing stayed constant—you.”</p>
+                    <p>“Some feelings don’t need time to be real — they just arrive.”</p>
+                    <p>“I would love nothing more than the chance to get to know the person behind that incredible first impression.”</p>
+                    <p className="text-2xl font-serif text-rose-gold mt-6">“No pressure, no rush — just a coffee, a conversation, and the chance to start something wonderful.”</p>
                 </motion.div>
             </div>
         </section>

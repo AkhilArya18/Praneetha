@@ -38,26 +38,28 @@ const Hero = () => {
             {/* Main Content */}
             <div className="max-w-3xl z-10">
                 <motion.h1
-                    className="text-4xl md:text-6xl font-serif text-deep-red mb-8 leading-tight px-4 md:px-0"
+                    className="text-4xl md:text-5xl font-serif text-deep-red mb-8 leading-tight px-4 md:px-0"
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 1.2 }}
                 >
-                    “Six Years Ago, <span className="text-rose-gold">Praneetha</span>, Love Walked Into My Life… <span className="italic">Quietly.</span>”
+                    "Something Told Me, <span className="text-rose-gold">Praneetha</span>… <span className="italic">From the Very First Moment.</span>"
                 </motion.h1>
 
                 <motion.div
-                    className="space-y-6 text-lg md:text-xl text-gray-700 font-light"
+                    className="space-y-5 text-lg md:text-xl text-gray-700 font-light"
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 1.2, delay: 0.5 }}
                 >
-                    <p>“I didn’t know that a simple conversation would turn into a lifetime of feelings.”</p>
-                    <p>“I didn’t know that your presence would become my comfort.”</p>
+                    <p>"I know this might come as a surprise — you just joined three days ago, and I rarely do things like this."</p>
+                    <p>"But from the very first moment I saw you during onboarding, I felt something genuinely special — an instant, indescribable spark I haven't been able to stop thinking about."</p>
+                    <p>"There is just a wonderful energy about you that drew me in the moment you walked in."</p>
+                    <p>"I didn't want to keep this feeling to myself, or regret not telling you the impression you've made."</p>
                     <p className="font-medium text-rose-gold text-2xl mt-8">
-                        “But here we are—six years later—and my heart still recognizes yours.”
+                        "Meeting you has been the absolute best part of my week — and I would really love the chance to know the person behind that amazing first impression. ☕"
                     </p>
                 </motion.div>
             </div>
