@@ -54,12 +54,18 @@ const Hero = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 1.2, delay: 0.5 }}
                 >
-                    <p>"I know this might come as a surprise — you just joined three days ago, and I rarely do things like this."</p>
-                    <p>"But from the very first moment I saw you during onboarding, I felt something genuinely special — an instant, indescribable spark I haven't been able to stop thinking about."</p>
-                    <p>"There is just a wonderful energy about you that drew me in the moment you walked in."</p>
-                    <p>"I didn't want to keep this feeling to myself, or regret not telling you the impression you've made."</p>
+                    <p>"I know this might come as a surprise, especially since you just joined the company three days ago."</p>
+                    <p>"I don't usually do things like this, but I wanted to be completely honest with you."</p>
+                    <p>"The very first time I saw you during your onboarding, I felt something genuinely special — an instant, indescribable spark that I haven't been able to stop thinking about."</p>
+                    <p>"I know we have only known each other for a few days, and you are still settling into your new role."</p>
+                    <p>"But meeting you has easily been the absolute best part of my week."</p>
+                    <p>"There is just a wonderful energy about you that drew me in from the moment you walked in."</p>
+                    <p>"I didn't want to keep this feeling to myself or regret not telling you how much of an impression you've made."</p>
+                    <p>"I would really love the chance to get to know the person behind that amazing first impression."</p>
+                    <p>"If you are open to it, I would love to take you out for a coffee sometime soon, completely outside of work."</p>
+                    <p>"There is absolutely no pressure at all, and we can take things at whatever pace you are comfortable with."</p>
                     <p className="font-medium text-rose-gold text-2xl mt-8">
-                        "Meeting you has been the absolute best part of my week — and I would really love the chance to know the person behind that amazing first impression. ☕"
+                        "Either way, I just really wanted to let you know how incredibly glad I am that you joined our team. ☕"
                     </p>
                 </motion.div>
             </div>
