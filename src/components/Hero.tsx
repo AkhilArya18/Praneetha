@@ -44,7 +44,7 @@ const Hero = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 1.2 }}
                 >
-                    “Six Years Ago, <span className="text-rose-gold">Sunaina</span>, Love Walked Into My Life… <span className="italic">Quietly.</span>”
+                    “Six Years Ago, <span className="text-rose-gold">Praneetha</span>, Love Walked Into My Life… <span className="italic">Quietly.</span>”
                 </motion.h1>
 
                 <motion.div

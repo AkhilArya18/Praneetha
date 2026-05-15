@@ -27,12 +27,12 @@ const Proposal = () => {
             "I'll convince our parents! 👨‍👩‍👧‍👦",
             "I'll do everything for us! 💪",
             "Trust my manifestation! ✨",
-            "Please Bangaru? 🥺",
+            "Please Maa? 🥺",
             "I'm not giving up on us!",
-            "Ammu, look at my efforts! 💖",
+            "Maa, look at my efforts! 💖",
             "We are meant to be! 🦋",
             "I will wait forever!",
-            "Just say Yes, Ammu! 💍",
+            "Just say Yes, Maa! 💍",
             "Don't break my heart ;(",
             "I love you infinity! ❤️",
             "Our future is waiting!",
@@ -53,7 +53,7 @@ const Proposal = () => {
                     >
                         <h2 className="text-4xl md:text-6xl font-serif text-deep-red mb-6">She Said Yes! 💖</h2>
                         <p className="text-xl md:text-2xl text-gray-700 mb-8">
-                            “Thank you for loving me, <span className="font-bold text-rose-gold">Ammu</span>. Thank you for trusting me. We will make this life beautiful together.”
+                            “Thank you for loving me, <span className="font-bold text-rose-gold">Maa</span>. Thank you for trusting me. We will make this life beautiful together.”
                         </p>
                         <Heart className="w-24 h-24 text-rose-gold mx-auto animate-pulse" fill="currentColor" />
                     </motion.div>
@@ -66,7 +66,7 @@ const Proposal = () => {
                             className="mb-12"
                         >
                             <p className="text-xl text-gray-600 mb-4">“I know you didn't accept me yet, but I am manifesting a life with you…”</p>
-                            <h2 className="text-4xl md:text-7xl font-serif text-deep-red font-bold mb-4">Will you marry me, <span className="text-rose-gold">Bangaru</span>?</h2>
+                            <h2 className="text-4xl md:text-7xl font-serif text-deep-red font-bold mb-4">Will you marry me, <span className="text-rose-gold">Maa</span>?</h2>
                         </motion.div>
 
                         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
